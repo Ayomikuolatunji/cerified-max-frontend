@@ -2,7 +2,7 @@
 
 This project was bootstrapped with react and  storybook
 
-## project figma design
+## project figma design (https://www.figma.com/file/M37ehNnpBRKJGHnairyAXP/project-X?node-id=3%3A269&t=H6Ydndqroq8RnE64-0) 
 
 ## Available Scripts
 
