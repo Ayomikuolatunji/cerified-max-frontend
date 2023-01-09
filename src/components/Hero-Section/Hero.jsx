@@ -1,7 +1,13 @@
+// Import the React library
 import React from "react";
+
+// Import the hero image
 import "../../assets/hero-image.png";
+
+// Import the hero.css file
 import "./hero.css";
 
+// Create a component that returns the HTML of the hero section
 export const Hero = () => (
 	<div className="hero">
 		<div>

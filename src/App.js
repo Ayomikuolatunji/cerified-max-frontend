@@ -1,9 +1,12 @@
 import React from "react";
+import { Hero } from './components/Hero-Section/Hero'
+import { Sponsors } from "./components/Sponsors-Section/Sponsors";
 
 function App() {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Hero />
+      <Sponsors />
     </div>
   );
 }

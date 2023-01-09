@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .hero > div{
@@ -46,12 +46,52 @@
   border-radius: 5px;
 }
 
+.hero-button:hover {
+  background-color: transparent;
+  color: #545557;
+}
+
 .hero-image {
   width: 55%;
 }
 
 .hero-image img {
   width: 100%;
+}
+
+@media screen and (max-width: 820px) {
+  .hero > div {
+    flex-direction: column;
+    width: 90%
+  }
+  
+  .hero-content {
+    width: 100%;
+    padding: 0;
+   
+  }
+
+  .hero-content h1 {
+    font-size: 16px
+  }
+  
+  .hero-content p {
+    font-size: 12px
+  }
+  
+  .hero-image {
+    width: 80%;
+    margin: 20px 0;
+  }
+  
+  .hero-image img {
+    width: 100%;
+  }
+
+  .hero-button {
+    font-size: 10px;
+    margin: 10px 0;
+  }
 }
 
 .banner-footer {
@@ -72,4 +112,14 @@
   font-size: 20px;
   font-weight: 400;
   font-style: normal;
+}
+
+@media screen and (max-width: 820px) {
+  .banner-footer h2 {
+    font-size: 16px;
+  }
+
+  .banner-footer p {
+    font-size: 12px
+  }
 }
